@@ -43,10 +43,10 @@ For a gene: ND1;len=945;\[2444:3389\]\(\+\)
     268N  2610  2877
     511M  2878  3388
 
-## 4 Author
+## 5 Author
 Guanliang MENG
 
-## 5 Citation
+## 6 Citation
 Currently I have no plan to publish `cigar_coordinates`.
 
 
