@@ -22,8 +22,16 @@ There will be a command `cigar_coordinates` created under the same directory as 
     $ cigar_coordinates
     usage: cigar_coordinates [-h] -c <STR> [-s <INT>] [-q] [-d {+,-}]
 
-    To get the coordinates of a given CIGAR string. By Guanliang MENG, see
-    https://github.com/linzhi2013/cigar_coordinates.
+    To get the coordinates of a given CIGAR string.
+    By Guanliang MENG, see https://github.com/linzhi2013/cigar_coordinates.
+
+    I understand the following CIGAR types:
+
+         seq - - - N N N O O O
+      refseq - N O N - O O N -
+       cigar P n D B u U M N I
+
+    The output coordinates are closed intervals.
 
     optional arguments:
       -h, --help  show this help message and exit
