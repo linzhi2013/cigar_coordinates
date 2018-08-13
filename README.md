@@ -33,6 +33,15 @@ There will be a command `cigar_coordinates` created under the same directory as 
       -q          the '-s' option is about query sequence, not refseq [True]
       -d {+,-}    the gene direction [+]
 
+## 4 Example
+  
+For a gene: ND1;len=945;\[2444:3389\]\(\+\)
+
+    $ cigar_coordinates -c 6D166M268N511M -s 2444
+    6D  2444  2444
+    166M  2444  2609
+    268N  2610  2877
+    511M  2878  3388
 
 ## 4 Author
 Guanliang MENG
